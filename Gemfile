@@ -30,6 +30,8 @@ gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 gem "redis", "~> 4.0"
 
+# Use Jquery-rails as Jquery
+gem 'jquery-rails'
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -74,3 +76,7 @@ end
 gem "tailwindcss-rails", "~> 2.0"
 
 gem "devise", "~> 4.8"
+
+gem "kaminari", "~> 1.2"
+
+gem "friendly_id", "~> 5.5"
